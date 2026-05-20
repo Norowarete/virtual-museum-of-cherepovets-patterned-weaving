@@ -9,20 +9,25 @@
 </head>
 <body>
     <header class="header">
-        <a href="/" class="header-logo">
-            <img 
-                src="./images/Logo.svg"
-                alt="Logo"
-                class="header-logo-image"
-                width="168"
-                height="60"
-                loading="lazy"
-            >
-        </a>
         <nav class="header-menu">
+             <a href="/" class="header-logo">
+                <img 
+                    src="./images/Logo.svg"
+                    alt="Logo"
+                    class="header-logo-image"
+                    width="168"
+                    height="60"
+                    loading="lazy"
+                >
+                </a>
             <ul class="header-menu-list">
                 <li class="header-menu-item">
                     <a href="history.html" class="header-menu-link">История ▼</a>
+                    <ul class="drop-down-menu">
+                        <li><a href="#" class="header-menu-link">До 1992 г.</a></li>
+                        <li><a href="#" class="header-menu-link">1922-1991 гг.</a></li>
+                        <li><a href="#" class="header-menu-link">1922- н.в.</a></li>
+                    </ul>
                 </li>
                 <li class="header-menu-item">
                     <a href="archive.html" class="header-menu-link">Архив</a>
@@ -38,6 +43,14 @@
                 </li>
                 <li class="header-menu-item">
                     <a href="for_visitors.html" class="header-menu-link">Для посетителей ▼</a>
+                    <ul class="drop-down-menu">
+                        <li><a href="#" class="header-menu-link">Режим работы</a></li>
+                        <li><a href="#" class="header-menu-link">Как добраться?</a></li>
+                        <li><a href="#" class="header-menu-link">Контакты</a></li>
+                        <li><a href="#" class="header-menu-link">Правила посещения</a></li>
+                        <li><a href="#" class="header-menu-link">Прейскурант</a></li>
+                        <li><a href="#" class="header-menu-link">Купить билеты</a></li>
+                    </ul>
                 </li>
                 <li class="header-menu-item">
                     <a href="about_us.html" class="header-menu-link">О нас</a>
@@ -45,10 +58,12 @@
             </ul>
         </nav>
     </header>
+    
     <main>
         <div class="content_box">
         </div>
     </main>
+
     <footer class="footer">
         <div class="footer-inner">
             <a href="/" class="header-logo">
